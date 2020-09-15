@@ -1,0 +1,53 @@
+html {
+   height: 100%
+   font-family: Aharoni;
+   test-size: 100%;
+   background-color: black;
+   }
+.nav {
+  font-family: Aharoni;
+  position:fixed;
+  overflow: hidden;
+  background-color: rgba(49,49,49,0.5);
+  top: 0;
+  width: 100%;
+}
+
+.nav a {
+  float: left;
+  font-family: Aharoni;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  background-color: #250249;
+}
+
+.main {
+  margin-top: 60px;
+}
+.main h1 {
+  color: white;
+}
+
+p {
+  marign: 0 0 20px;
+  font-size: 16pt;
+  color: white;
+}
+
+img {
+ display: block;
+ text-align:center;
+ height: 300px;
+ width: 250px;
+}
+
+footer {
+      color: white;
+     }
